@@ -1,0 +1,29 @@
+# ── Salesforce CLI local state ────────────────────────────────────────────────
+# Per-org source-tracking state and cached metadata. Machine specific, churns
+# constantly, no business in a published repo.
+.sf/
+.sfdx/
+.localdevserver/
+deploy-options.json
+
+# ── Never commit credentials ──────────────────────────────────────────────────
+# An sfdx auth URL is a full credential - anyone holding it can log into the org.
+**/*authFile*.json
+**/*sfdxAuthUrl*
+.env
+.env.*
+
+# ── Build / tooling output ────────────────────────────────────────────────────
+node_modules/
+coverage/
+.nyc_output/
+*.log
+test-result*.json
+junit-custom*.xml
+
+# ── Editor and OS noise ───────────────────────────────────────────────────────
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
