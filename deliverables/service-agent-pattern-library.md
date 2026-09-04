@@ -78,7 +78,7 @@ should be keyword-and-rule first, model second, and it should over-escalate by d
 | 11 | **Route / ETA update** | Technician running late → customer told before they notice | None. Geofence plus template. | 🟢 |
 | 12 | **Waitlist manager** | Capacity opens → waitlist worked down | Rank by fit and recency | 🟢 |
 
-Seven of the twelve patterns so far are green, and several need no model at all. **This is
+Six of the twelve patterns so far are green, and several need no model at all. **This is
 the board's own best advice and it is correct:** start with follow-up, scheduling and
 reminders, and add AI only where language, judgment or triage actually appear. Most of the
 value in Stage 2 is a working queue, not a clever one.
@@ -224,7 +224,7 @@ order:
 
 Scored that way, the board's own "best places to start" box is right: missed-call
 follow-up, bookings and reminders, enquiry qualification, review follow-up. Patterns 1, 6,
-7 and 21/22 — three green, one amber, all with an obvious baseline.
+7 and 21/22 — two green, two amber, all with an obvious baseline.
 
 The Meridian corollary, and the rule this engagement is built on: **define how you count a
 deflected conversation, build the report, then launch.** Not the other way around.
