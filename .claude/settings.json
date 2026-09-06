@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sf org list)",
+      "Bash(sf org display --target-org devorg)",
+      "Bash(sf data query --target-org devorg:*)",
+      "Bash(sf sobject describe --target-org devorg:*)",
+      "Bash(sf sobject list --target-org devorg:*)",
+      "Bash(sf org list metadata --target-org devorg:*)",
+      "Bash(sf apex list log --target-org devorg:*)",
+      "Bash(sf apex get log --target-org devorg:*)",
+      "Bash(sf limits api display --target-org devorg:*)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote -v)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(wc:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./**/*authFile*.json)",
+      "Read(./**/*sfdxAuthUrl*)",
+      "Read(./.sf/**)",
+      "Read(./.sfdx/**)"
+    ]
+  }
+}
