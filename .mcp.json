@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "salesforce-dx": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@salesforce/mcp",
+        "--orgs",
+        "devorg",
+        "--toolsets",
+        "data,metadata,testing",
+        "--no-telemetry"
+      ]
+    }
+  }
+}
