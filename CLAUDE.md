@@ -1,5 +1,25 @@
 # CLAUDE.md
 
+## Governance audit — 2026-09-22
+
+Read [AGENTS.md](AGENTS.md) alongside this project context.
+
+Preserve the scenario, shared-org constraints and manual Setup workflow below.
+Scenario metrics are fictional inputs, not measured outcomes.
+The documented devorg connection and shared-org state were not verified in
+the audited WSL environment. Only sunrise was authenticated; do not substitute
+it for this project's org.
+
+No tracked files under force-app/main/default were found, and the build log
+contains no completed entries. Neither observation proves that the org has
+no configuration.
+
+The relative Einstein-AI path below is historical context, not a verified
+local directory. Reverify it before use and preserve documented demo records.
+Stakeholder emails are simulation deliverables: draft locally unless Hemayet
+explicitly requests sending a message.
+
+
 This file provides guidance to Claude Code (claude.ai/code) when working in this project.
 
 ## What this is
@@ -26,7 +46,7 @@ Wired Brain Coffee demo config. Five Accounts, two Orders, two Contracts and the
 Contacts survive from those demos and are load-bearing — do not delete them.
 
 ```bash
-sf org display --target-org devorg
+sf org list --all
 sf data query --target-org devorg --query "SELECT COUNT() FROM Case"
 ```
 
