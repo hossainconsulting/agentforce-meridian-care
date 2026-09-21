@@ -26,6 +26,11 @@ the documents prove the thinking did.
 
 ## Progress
 
+**Status:** The project scope is defined, but the build log currently
+contains no completed entries. The scope above describes intended work;
+completion is not established by this README.
+
+
 Build log lives in `deliverables/build-log.md` — every change with its date,
 reason, and the requirement it traces to.
 
