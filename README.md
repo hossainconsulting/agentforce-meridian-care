@@ -16,13 +16,14 @@ A six-week consulting engagement for a national warranty service administrator d
 
 | Folder | Contents |
 |---|---|
-| `force-app/` | Salesforce metadata retrieved from the org — the configuration itself |
+| `force-app/` | Salesforce metadata, when committed; currently a placeholder where no configuration files are present. |
 | `seed/` | Apex scripts that build the starting data, including its deliberate defects |
 | `deliverables/` | The written work: design docs, SOPs, analyses, runbooks |
 | `evidence/` | Before/after screenshots and test results per phase |
 
-`deliverables/` is the substance. The configuration proves the clicks happened;
-the documents prove the thinking did.
+`deliverables/` contains the written project work. The `force-app/` placeholder
+does not evidence implemented configuration; review dated deliverables and
+verification records for the work actually completed.
 
 ## Progress
 
