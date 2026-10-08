@@ -6,6 +6,7 @@
 
 **Certification track:** Agentforce Specialist
 **Salesforce org:** Developer Edition (CLI alias `devorg`)
+**Lab:** working copy maintained on `salesforce-dev` (Ubuntu 24.04 LTS, VirtualBox VM on my own hardware). `salesforce-dev` is my role name for the Ubuntu lab.
 **Scope:** 6 weeks | discovery, Service Cloud build, Agentforce agent, ticket operations, reporting and a live incident, executive debrief
 
 ## The brief
