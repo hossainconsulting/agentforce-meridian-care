@@ -95,3 +95,31 @@ Every week ends with a five-line status email to Priya Raman (done / next / risk
 decisions needed / metrics) and a 15-minute retro. Weeks are scoped to 8–12 hours.
 Deliverables accumulate in `deliverables/` — that folder is the engagement's product
 and the interview evidence.
+
+## Claude + Salesforce tooling
+
+This repo is set up for Claude Code to talk to the org directly. Full setup and
+the reasoning behind it: `deliverables/runbook-claude-code-salesforce.md`.
+
+- **`.mcp.json`** starts the Salesforce DX MCP server pinned to the **`devorg`**
+  alias with the `data`, `metadata` and `testing` toolsets (`testing` includes
+  `run_agent_test`, which matters here). It is pinned on purpose: this machine holds
+  several org authorisations and `DEFAULT_TARGET_ORG` would follow whatever was last
+  set as default. If the alias is not authorised locally, run
+  `sf org login web --alias devorg` first.
+- **`.claude/settings.json`** enables that server and the official
+  `salesforce-development` plugin (skills, deploy safety gate, Apex/SOQL language
+  servers). Install it once per machine with
+  `/plugin install salesforce-development@claude-plugins-official`, then run
+  `/salesforce-development:setup` to check prerequisites.
+
+Rules that the tooling does not change:
+
+- The plugin can generate objects, fields, flows and permission sets. **Do not**,
+  unless asked explicitly. Hemayet builds Setup configuration by hand.
+- Read before write. Verification queries and `retrieve_metadata` into `force-app/`
+  are routine. `deploy_metadata`, record deletes and anything that changes the org
+  need an explicit ask in the conversation, every time. The five demo Accounts, two
+  Orders, two Contracts and their Contacts are load-bearing and never deleted.
+- Seed and fix-up scripts run as anonymous Apex (`sf apex run --file`), are kept in
+  `seed/`, and are logged in `deliverables/build-log.md` like any other change.

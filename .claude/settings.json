@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "enabledMcpjsonServers": ["salesforce-dx"],
+  "enabledPlugins": {
+    "salesforce-development@claude-plugins-official": true
+  },
+  "permissions": {
+    "allow": [
+      "Bash(sf org display:*)",
+      "Bash(sf org list:*)",
+      "Bash(sf data query:*)"
+    ]
+  }
+}
