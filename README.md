@@ -63,3 +63,17 @@ writing and documentation. Commits it co-authored carry a
 Hemayet Hossain remains the project owner and decision-maker. These credits do
 not represent separate GitHub accounts or collaborator invitations, and do
 not change existing authorship, licensing or project completion claims.
+
+---
+
+## Connect
+
+Built by **Hemayet Hossain**, Sydney, Australia. The portfolio links self-directed projects, dated evidence and credential records. Project status is documented separately from planned scope.
+
+[Portfolio](https://portfolio.hossainconsulting.com/?utm_source=github&utm_medium=readme&utm_campaign=agentforce-meridian-care) ·
+[All links](https://portfolio.hossainconsulting.com/links) ·
+[GitHub](https://github.com/hossainconsulting) ·
+[LinkedIn](https://www.linkedin.com/company/hossain-consulting) ·
+[Instagram](https://www.instagram.com/hossainconsulting/) ·
+[Reddit (agency)](https://www.reddit.com/user/hossainconsulting/) ·
+[Reddit (personal)](https://www.reddit.com/user/hemayetAI/)
